@@ -9,7 +9,26 @@ body {
   body h1 {
     font-size: 50px;
     color: bisque;
-    text-align: center;
-    float: inherit; }
+    text-align: center; }
+  body #photo {
+    width: 25vw;
+    height: 25vh;
+    background-color: bisque;
+    float: left;
+    margin: 20px; }
+  body #photo:hover {
+    width: 30vw;
+    height: 30vh;
+    border: solid 5px black;
+    transition: 2s all; }
+  body #paragraphs {
+    width: 75vw;
+    height: 50wh;
+    margin: 20px;
+    padding: 40px; }
+  body .info-box p {
+    display: none; }
+  body .info-box p.visible {
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */

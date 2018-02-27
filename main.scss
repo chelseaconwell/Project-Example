@@ -11,6 +11,35 @@ body {
         font-size: 50px;
         color: bisque;
         text-align: center;
-        float: inherit;
+    }
+    #photo {
+        width: 25vw;
+        height: 25vh;
+        background-color: bisque;
+        float: left;
+        margin: 20px;
+    }
+    #photo:hover {
+        width: 30vw;
+        height: 30vh;
+        border: solid 5px black;
+        transition: 2s all;
+    }
+    #paragraphs {
+        width: 75vw;
+        height: 50wh;
+        margin: 20px;
+        padding: 40px;
+    }
+    .info-box {
+        button {
+    
+        }
+        p {
+            display: none;
+        }
+        p.visible {
+            display: block;
+        }
     }
 }
